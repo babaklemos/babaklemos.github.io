@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        div#block{
+            background-color: #25844a;
+            border: solid blue;
+            height: 100px;
+            width: 400px;
+        }
+        #inline-block{
+            border; solid;
+            display: inline-block;
+            height: 100px;
+            width: 400px;
+            background-color: #199;
+        }
+        .inline{
+            display: inline;
+            border: solid blue ;
+            height: 100px;
+            background-color: #45693a;
+            width: 400px;
+            font-size: 80px;
+        }
+        input{
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+    </style>
+</head>
+<!-- block, inline -block, inlne-->
+<body>
+   <ul>block element
+       <li>width is pages width - margin & border</li>
+       <li>height is 0</li>
+       <li>can set width and height</li>
+   </ul>
+    <div id=block></div>
+    
+
+    <ul>inline-block element
+    <li>width=0</li>
+    <li>height=0</li>
+    <li>can set width and height</li>
+    </ul>
+    <div id="inline-block"></div>
+    <ul>inline
+        <li>height=font-size</li>
+        <li>width=contend</li>
+        <li></li>
+    </ul>
+    
+    <div class="inline">LOL</div>
+    <div class="inline">LOL</div>
+    <input type="text">
+</body>
+</html>

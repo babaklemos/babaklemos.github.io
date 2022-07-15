@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>responsive</title>
+  <style>
+    div {
+      height: 100px;
+      background-color: deepskyblue;
+    }
+
+    div:nth-child(odd) {
+      background-color: dodgerblue;
+    }
+
+    @media all and (min-width: 768px) {
+      div {
+        display: inline-block;
+        width: 48%;
+      }
+    }
+
+    @media all and (min-width: 992px) {
+      div {
+        width: 31%;
+      }
+    }
+
+    @media all and (min-width: 1200px) {
+      div:nth-child(odd) {
+        background-color: lightgreen;
+      }
+    }
+
+    /*    responsive design: design for different size of screens */
+
+  </style>
+</head>
+
+<body>
+  <!--  mobile, tablet, desktop, tv -->
+  <!--  mobile-first design -->
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</body>
+
+</html>

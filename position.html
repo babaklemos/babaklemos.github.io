@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .item{
+            border: solid;
+            width: 100px;
+            height:100px;
+        }
+        #container{
+            border:solid;
+            height: 400px;
+            width: 400px;
+        }
+        #item1{
+            position: relative;
+            right: 50px;
+        }
+        #item2{
+            position: absolute;
+            right: 50px;
+        }
+        html{
+            border:solid green;
+            margin-right: 80px;
+        }
+        #item3{
+            position: fixed;
+            bottom:50px;
+            right:50px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div class="item" id="item1">relativ</div>
+    <div class="item" id="item2">absolut</div>
+    <div class="item" id="item3">fixed</div>    
+        
+    </div>
+</body>
+</html>
